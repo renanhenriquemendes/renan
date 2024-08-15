@@ -1,12 +1,103 @@
-<section class="banner"></section>
-<h2> ja sabe por onde começar? </h2>
-<p>Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-</section>
-<section class="banner">
-  <h2>Já sabe por onde começar?</h2>
-  <p>Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-  <input type="search" placeholder="Qual será sua próxima leitura?" />
-</section>
-
-
-
+@media screen and (min-width: 1024px) {
+    /* Estilos para tablets */
+  }
+  @media screen and (min-width: 1024px) {
+    .container__titulo,
+    .container__titulo--negrito {
+      font-family: var(--fonte-secundario);
+      font-size: 30px;
+    }
+  }
+  .container__titulo {
+    font-weight: 400;
+  }
+  
+  .container__titulo--negrito {
+    font-weight: 700;
+  }
+  @media screen and (min-width: 1024px) {
+    .container__titulo,
+    .container__titulo--negrito {
+      font-family: var(--fonte-secundario);
+      font-size: 30px;
+    }
+  
+    .container__titulo {
+      font-weight: 400;
+    }
+  
+    .container__titulo--negrito {
+      font-weight: 700;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .container__titulo {
+      font-weight: 400;
+      display: block;
+    }
+  }
+  .container__titulo {
+    display: none;
+  }
+  @media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .opções {
+      display: flex;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .opções_item {
+      padding: 0 1em;
+      text-transform: uppercase;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .opções__link {
+      text-decoration: none;
+      color: var(--preto);
+    }
+  }
+  .opções {
+    display: none;
+  }
+  @media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .container__imagem-transparente {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .cabeçalho__menu-hamburguer {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .opções_botão:checked ~ .lista-menu {
+      display: block;
+      width: auto;
+    }
+  
+    /* Código omitido */
+  }
+  @media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .opções_botão {
+      display: none;
+    }
+  
+    /* Código omitido */
+  }
+  
